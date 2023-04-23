@@ -1,5 +1,5 @@
 ﻿string [] array(){
-Console.Write("Какая длина будет у массива? ");
+Console.Write("Укажите длину массива: ");
 int size = Convert.ToInt32(Console.ReadLine());
 string [] array = new string[size];
 int len = 3;
